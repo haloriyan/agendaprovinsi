@@ -1,0 +1,105 @@
+.kiri {
+	position: fixed;
+	top: 0px;left: 0px;bottom: 0px;
+	width: 25%;
+}
+.kiri > .wrap { margin: 10%; }
+.kiri a {
+	text-decoration: none;
+	color: #fff;
+}
+.kiri li {
+	list-style: none;
+	line-height: 55px;
+	padding: 1px 25px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+.kiri #icon {
+	display: inline-block;
+	width: 40px;
+}
+.kiri li[aktif=ya] {
+	background-color: #444;
+}
+
+.atas {
+	position: fixed;
+	top: 0px;left: 25%;right: 0px;
+	line-height: 65px;
+	background-color: #fff;
+	color: #444;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	z-index: 1;
+}
+.atas #tblMenu {
+	float: left;
+	margin-left: 5%;
+	cursor: pointer;
+	font-size: 20px;
+}
+.atas .judul {
+	margin: 0;
+	margin-left: 2.5%;
+	font-size: 22px;
+	font-family: OBold;
+}
+.atas #cta {
+	float: right;
+	margin-right: 5%;
+	width: 190px;
+	height: 45px;
+	margin-top: 9px;
+	border-radius: 6px;
+	padding: 0;
+}
+
+.container {
+	position: absolute;
+	top: 120px;left: 30%;right: 5%;
+}
+.container:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.container .wrap { margin: 5%; }
+.container .bagian {
+	box-shadow: 1px 1px 5px 1px #ddd;
+	padding: 1px;
+	color: #454545;
+	margin-bottom: 35px;
+	border-radius: 6px;
+}
+.container .card {
+	display: inline-block;
+	width: 31.5%;
+	border-radius: 6px;
+	margin-right: 10px;
+}
+.container .card .wrap { margin: 7% 15%; }
+.card h3 {
+	font-size: 25px;
+	font-family: OBold;
+	margin: 0;
+}
+.container .box {
+	width: 93%;
+	font-size: 17px;
+}
+.container form button { margin-top: 15px; }
+.popup { border-radius: 6px; }
+
+#myTable th {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding-left: 15px;
+}
+#myTable td:nth-child(odd),#myTable td:nth-child(even) {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+#myTable .tbl {
+	padding: 10px 20px;
+}

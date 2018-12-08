@@ -1,0 +1,102 @@
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 65px;
+	height: 75px;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	z-index: 1;
+}
+.atas .judul {
+	margin: 0;
+	margin-left: 5%;
+	font-size: 22px;
+	cursor: pointer;
+	font-family: OLight;
+}
+.atas .judul b {
+	font-family: OBold;
+	color: #00997a;
+	font-size: 24px;
+}
+.atas .icon {
+	float: left;
+	margin-left: 5%;
+	width: 50px;
+	height: 50px;
+	margin-top: 11px;
+}
+.atas .icon img {
+	width: 100%;
+}
+.atas .pencarian {
+	float: left;
+	margin-left: 2.5%;
+	width: 50%;
+}
+.atas .pencarian .box {
+	border-radius: 0px;
+	border: none;
+	border-bottom: 2px solid #ddd;
+	padding: 0px;
+	font-size: 17px;
+	color: #555;
+	width: 65%;
+}
+.atas .pencarian .box:focus {
+	border-bottom: 2px solid #00997a;
+}
+.atas .pencarian #cari {
+	background-color: #00997a;
+	color: #fff;
+	margin-left: 10px;
+}
+.atas .pencarian #cari:hover {
+	background-color: #008066;
+}
+
+.container {
+	position: absolute;
+	top: 140px;left: 35%;right: 5%;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.grid-sizer,.grid-item { width: 30.9%; }
+.grid-sizer {
+	padding: 10px;
+}
+.list {
+	float: left;
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 5px 1px #ddd;
+	border-radius: 6px;
+	color: #454545;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.list .cover {
+	width: 100%;
+	height: 180px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.list .wrap { margin: 7.5%; }
+.list #tgl {
+	font-size: 14px;
+	color: #999;
+	line-height: 33px;
+	margin-top: 15px;
+}
+.list div #icon {
+	display: inline-block;
+	width: 25px;
+}
+.list h3 {
+	font-size: 18px;
+	color: #666;
+	line-height: 33px;
+}

@@ -1,0 +1,53 @@
+{
+	"tabel": {
+		"user": [
+			"iduser int(11)",
+			"nama varchar(50)",
+			"email varchar(50)",
+			"password varchar(50)",
+			"interest varchar(255)",
+			"phone int(15)",
+			"status int(1)",
+			"registered int(11)"
+		],
+		"event": [
+			"idevent int(11)",
+			"iduser int(11)",
+			"title varchar(100)",
+			"description text",
+			"cover varchar(100)",
+			"category varchar(255)",
+			"tgl varchar(30)",
+			"waktu varchar(30)",
+			"created int(11)"
+		],
+		"tiket": [
+			"idtiket int(11)",
+			"idevent int(11)",
+			"nama varchar(25)",
+			"price int(12)",
+			"slot int(11)",
+			"status int(1)",
+			"created int(11)"
+		],
+		"booking": [
+			"idbooking int(11)",
+			"iduser int(11)",
+			"idtiket int(11)",
+			"qty int(2)",
+			"status int(1)",
+			"booked int(11)"
+		]
+	},
+	"atribut": {
+		"primary key": [
+			"user.iduser",
+			"event.idevent",
+			"tiket.idtiket",
+			"booking.idbooking"
+		],
+		"unique key": [
+			"user.email"
+		]	
+	}
+}
